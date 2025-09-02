@@ -63,7 +63,8 @@ Managing 70+ microservices across multiple staging servers creates operational c
 ### **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/badgerv/devoptic.git
+git clone https://github.com/[your-username]/devoptic.git
+
 cd devoptic
 
 # Start all services
@@ -151,5 +152,6 @@ DevOps Engineer | Enterprise Infrastructure Specialist
 Building the future of microservices monitoring
 
 ---
+
 
 *Built with ❤️ for DevOps teams who deserve better monitoring tools.*
