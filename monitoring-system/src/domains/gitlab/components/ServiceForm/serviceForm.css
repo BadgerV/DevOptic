@@ -1,0 +1,12 @@
+/* Minimal CSS for layout tweaks */
+.ant-layout-content {
+  background: #fff;
+}
+
+.ant-table {
+  background: #fff;
+}
+
+.ant-select {
+  width: 100%;
+}

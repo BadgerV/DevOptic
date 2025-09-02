@@ -1,0 +1,89 @@
+.endpoint-main-right {
+  width: 25em;
+}
+
+.right-sidebar {
+  width: 30em;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background: #f9fafb;
+  padding: 16px;
+  padding-bottom: 3em;
+}
+
+.sidebar-card {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.section-title {
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.logs-timeline {
+  padding-left: 8px;
+}
+
+.log-text {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.log-timestamp {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.uptime-stats {
+  margin-bottom: 16px;
+}
+
+.uptime-progress {
+  margin: 8px 0;
+  width: 100% !important;
+}
+
+.uptime-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.performance-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.performance-stats .ant-statistic-title {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.performance-stats .ant-statistic-content {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.incidents-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.incident-timestamp {
+  font-size: 12px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.incident-message {
+  font-size: 12px;
+  color: #4b5563;
+}

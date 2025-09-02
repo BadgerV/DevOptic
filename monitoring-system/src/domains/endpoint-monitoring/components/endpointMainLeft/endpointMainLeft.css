@@ -1,0 +1,20 @@
+.endpoint-main-left {
+  flex: 1;
+  /* max-width: 100%; */
+
+  overflow: hidden;
+
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 30em;
+  padding: 1em;
+}
+
+.endpoint-main-left-isloading {
+  width: calc(100% - 25em - 5em);
+  height: 80dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

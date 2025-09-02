@@ -1,0 +1,181 @@
+.settings-main {
+  margin-right: 8.5em;
+}
+.settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.settings-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.settings-header h2 {
+  margin-bottom: 8px;
+  color: #262626;
+}
+
+.settings-tabs {
+  background: white;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.settings-tabs .ant-tabs-nav {
+  padding: 0 24px;
+  margin-bottom: 0;
+}
+
+.settings-tabs .ant-tabs-content-holder {
+  padding: 24px;
+}
+
+.settings-card {
+  border: none;
+  box-shadow: none;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.settings-card .ant-card-head {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 0 16px 0;
+}
+
+.settings-card .ant-card-body {
+  padding: 24px 0 0 0;
+}
+
+.readonly-input {
+  background-color: #f5f5f5 !important;
+  cursor: not-allowed;
+}
+
+.readonly-note {
+  margin-top: 16px;
+  display: block;
+  font-style: italic;
+}
+
+.security-section {
+  width: 100%;
+}
+
+.password-strength {
+  margin: 8px 0 16px 0;
+}
+
+.password-strength .ant-progress {
+  margin: 4px 0;
+}
+
+.strength-text {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.email-status {
+  margin-bottom: 24px;
+  padding: 12px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+}
+
+.email-form {
+  margin-top: 16px;
+}
+
+.verification-notice {
+  margin-top: 16px;
+  padding: 12px;
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 6px;
+}
+
+.action-button {
+  min-width: 120px;
+}
+
+.verify-button {
+  min-width: 120px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .settings-container {
+    padding: 16px;
+  }
+
+  .settings-tabs .ant-tabs-content-holder {
+    padding: 16px;
+  }
+
+  .settings-card .ant-card-body {
+    padding: 16px 0 0 0;
+  }
+
+  .email-status {
+    padding: 8px;
+  }
+
+  .action-button,
+  .verify-button {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .settings-container {
+    padding: 8px;
+  }
+
+  .settings-header {
+    margin-bottom: 24px;
+  }
+
+  .settings-tabs .ant-tabs-nav {
+    padding: 0 16px;
+  }
+
+  .settings-tabs .ant-tabs-content-holder {
+    padding: 12px;
+  }
+}
+
+/* Accessibility improvements */
+.ant-input:focus,
+.ant-input-password:focus {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.ant-btn:focus {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* Custom ant design overrides */
+.ant-tabs-tab {
+  font-weight: 500;
+}
+
+.ant-tabs-tab-active {
+  color: #1890ff !important;
+}
+
+.ant-form-item-label > label {
+  font-weight: 500;
+  color: #595959;
+}
+
+.ant-tag {
+  border-radius: 4px;
+  font-weight: 500;
+}

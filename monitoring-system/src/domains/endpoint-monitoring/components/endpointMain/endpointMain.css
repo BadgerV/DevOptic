@@ -1,0 +1,15 @@
+.endpoint-main {
+  padding: 2em;
+  margin-left: 17em;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.endpoint-main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
